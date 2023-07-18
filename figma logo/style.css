@@ -1,0 +1,86 @@
+.circle {
+  display: flex;
+  flex-direction: row;
+  /* margin: 0 auto; */
+  height: 3.125em;
+  width: 3.125em;
+  background-color: rgb(80, 200, 240);
+  border-radius: 50%;
+  /* margin-left: 0%; */
+}
+
+.square1 {
+  height: 3.125em;
+  width: 3.125em;
+  background-color: orangered;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  /* margin-left: 40%; */
+}
+.square2 {
+  height: 50px;
+  width: 50px;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: rgb(221, 121, 121);
+}
+.shape1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.shape2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.square3 {
+  height: 50px;
+  width: 50px;
+  background-color: blueviolet;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  /* margin-left: 40%; */
+}
+.square4 {
+  height: 3.125em;
+  width: 3.125em;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 50%;
+  margin-right: 3.125em;
+
+  background-color: rgb(31, 237, 168);
+}
+.logo1 {
+  /* margin-top: 85%;
+  margin-bottom: 30%;
+  margin-left: 18%;
+  margin-right: 30%; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
